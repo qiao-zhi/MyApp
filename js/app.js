@@ -3,7 +3,7 @@
  * 当您要参考这个演示程序进行相关 app 的开发时，
  * 请注意将相关方法调整成 “基于服务端Service” 的实现。
  **/
-var appServerAddressPrefix = "http://192.168.0.165:8088";
+var appServerAddressPrefix = "http://192.168.1.6:8088";
 (function($, owner) {
 	$.init();
 	/**

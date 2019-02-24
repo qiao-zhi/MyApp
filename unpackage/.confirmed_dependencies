@@ -2,14 +2,16 @@
 	"main.html": {
 		"refer": [
 			"setting.html",
-			"view/user.html"
+			"view/user.html",
+			"view/page1.html"
 		],
 		"resources": [
 			"js/app.js",
 			"js/mui.min.js",
 			"css/mui.min.css",
 			"fonts/mui.ttf",
-			"view/user.html"
+			"view/user.html",
+			"view/page1.html"
 		]
 	},
 	"login.html": {
@@ -52,6 +54,15 @@
 		"resources": [
 			"css/mui.min.css",
 			"js/user.js",
+			"main.html",
+			"js/constants.js"
+		],
+		"refer": [
+			"main.html"
+		]
+	},
+	"view/page1.html": {
+		"resources": [
 			"main.html"
 		],
 		"refer": [
